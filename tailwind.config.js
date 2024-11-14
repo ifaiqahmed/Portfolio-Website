@@ -2,12 +2,14 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
     extend: {
       colors: {
-        customGray: '#666666',  // Define your custom color
+        customGray: '#666666',  
+        customDarkBlue: '#42446E',
+        customGrayLight: 'rgba(102, 102, 102, 0.1)', // 50% opacity gray
       },
     },
   },

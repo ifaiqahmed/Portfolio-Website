@@ -5,13 +5,13 @@ import { assets } from '../assets/assets';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center my-8 ' >
+    <div className='flex justify-between items-center py-8 border-b-2  border-customGrayLight' >
       
-      <h3 className='text-black-600'>Faiq<span className='font-semibold ml-1 text-lg' >Ahmed</span> </h3>
+      <h3 className='text-black-600 bg-gradient-to-r from-[#13B0F5] to-[#E70FAA] bg-clip-text text-transparent '>Faiq<span className='font-semibold ml-1 text-lg' >Ahmed</span> </h3>
       
       <div className='flex gap-6 items-center' >
       <ul className='flex gap-8 text-sm text-customGray' >
-      <NavLink to='/home' >
+      <NavLink to='/' >
       <li>Home</li>
       </NavLink>
 
