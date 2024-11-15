@@ -6,6 +6,7 @@ import TechStack from './pages/TechStack'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -14,10 +15,11 @@ const App = () => {
       <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About/>} />
-      <Route path='/tech-stack' element={<TechStack/>} />
+      <Route path='/techstack' element={<TechStack/>} />
       <Route path='/projects' element={<Projects/>} />
       <Route path='/contact' element={<Contact/>} />
       </Routes>
+      <Footer/>
     </div>
   )
 }
